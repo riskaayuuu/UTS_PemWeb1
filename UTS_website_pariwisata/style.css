@@ -1,0 +1,140 @@
+nav {
+    background-color: rgb(123, 229, 250) ;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.nav-container{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+nav ul{
+    list-style-type: none;
+    /* text-align: right; */
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li{
+    /* display: inline; */
+    margin: 0 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: rgb(188, 107, 1);
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+nav ul li a:hover{
+    color: rgba(27, 156, 158, 0.235);
+    border-radius: 5px;
+}
+.logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 500px;
+    margin-right: 20px;
+}
+body{
+    padding-top: 100px;
+    font-family: 'Poppins', sans-serif;
+}
+footer{
+    background-color: rgb(123, 229, 250);
+    padding: 20px;
+    text-align: center;
+}
+/* Tabel Harga Tiket */
+.infoharga {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.infoharga table {
+    width: 100%;
+    max-width: 600px;
+    border-collapse: collapse;
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid #ddd; /* Menambahkan border pada tabel */
+}
+
+.infoharga th,
+.infoharga td {
+    padding: 12px 16px;
+    border: 1px solid #ddd; /* Menambahkan border pada sel */
+}
+
+.infoharga th {
+    background-color: #14a4e1;
+    font-weight: 600;
+}
+
+.infoharga td {
+    font-weight: 400;
+}
+
+.infoharga tfoot td {
+    border-bottom: none;
+    font-style: italic;
+    color: #666;
+}
+
+@media (max-width: 768px) {
+    .infoharga table {
+        font-size: 14px;
+    }
+
+    .infoharga th,
+    .infoharga td {
+        padding: 10px 12px;
+    }
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.social-icon img{
+    width: 40px;
+    height: 40px;
+    
+}
+h3 ,p{
+    margin: 10px 0;
+}
+.gambar{
+    width: 600px;
+    height: 300px;
+    text-align: center;
+    padding-left: 300px;
+}
+.form-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+    max-width: 400px;
+    /* margin: auto; */
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background: #555;
+}
